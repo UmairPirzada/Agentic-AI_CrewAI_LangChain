@@ -1,0 +1,14 @@
+research:
+  description: "Research the latest developments in AI technology, focusing on recent breakthroughs and trends"
+  agent: researcher
+  expected_output: "A detailed list of recent AI developments and breakthroughs"
+
+analyze:
+  description: "Analyze the research findings and identify key trends and implications"
+  agent: analyst
+  expected_output: "Analysis report of key trends and their significance"
+
+write:
+  description: "Create a comprehensive report based on the research and analysis"
+  agent: writer
+  expected_output: "Final written report on AI developments"

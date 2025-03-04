@@ -1,0 +1,29 @@
+from crewai.flow.flow import Flow, start, listen
+from litellm import comple
+
+
+import time 
+
+class SimpleFlow(Flow):
+
+    @start()
+    def function1(self):
+        print("Step1...")
+        time.sleep(3)
+
+    @listen(function1)
+    def function2(self):
+        print("Step2...")
+        time.sleep(3)
+
+    @listen(function2)    
+    def function3(self):
+        print("Step3...")
+        time.sleep(3)
+
+# def kickoff():
+#     print ("Hello World")
+
+def kickoff():
+    obj = SimpleFlow()
+    obj.kickoff()

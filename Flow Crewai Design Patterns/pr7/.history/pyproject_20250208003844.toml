@@ -1,0 +1,21 @@
+[project]
+name = "pr7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Umair Pirzada", email = "129576257+UmairPirzada@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=0.100.1",
+]
+
+[project.scripts]
+pr7 = "pr7:main"
+simpleflow = "pr7.main:kickoff"
+ = "pr7.main:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

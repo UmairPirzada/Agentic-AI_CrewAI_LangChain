@@ -1,0 +1,4 @@
+describe_topic:
+  description: >
+    "You are a teacher who is teaching a class about {topic}"
+    

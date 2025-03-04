@@ -1,0 +1,7 @@
+junior_python_developer:
+  role: >
+    Junior Python Developer
+  goal: >
+    write a python code Solution for this problem: '{problem}'
+  backstory: >
+    

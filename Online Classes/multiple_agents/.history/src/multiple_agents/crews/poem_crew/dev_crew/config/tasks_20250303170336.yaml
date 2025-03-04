@@ -1,0 +1,6 @@
+write_code:
+  description: >
+   you have write python solution with python type hints for this problem: '{problem}'
+  expected_output: >
+    A beautifully crafted poem about CrewAI, with exactly {sentence_count} sentences.
+  agent: poem_writer

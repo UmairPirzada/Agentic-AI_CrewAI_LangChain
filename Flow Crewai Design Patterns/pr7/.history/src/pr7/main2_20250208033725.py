@@ -1,0 +1,46 @@
+from crewai.flow.flow import Flow, start, listen, router
+import random
+
+class RouteFlow(Flow):
+
+    @start()
+    def greeting(self):
+        print("Assalam_0_alikum!")
+        cities = ["karachi", "islamabad", "lahore"]
+        select_city = random.choice(cities)
+        self.state['city'] = select_city
+
+    @router(greeting)
+    def select_city(self):
+        
+        if  self.state == "karachi":
+            return 'karachi'
+        elif  self.state == 'islamabad':
+            return 'islamabad'
+
+        else  self.state == 'lahore':
+            return 'lahore'    
+
+    @listen(karachi)
+    def karachi(self, city): 
+        print ("write some fun fact about {city} city.")  
+
+
+    
+    @listen(islamabad)
+    def islamabad(self, city): 
+        print ("write some fun fact about {city} city.")   
+
+        
+    @listen(lahore)
+    def lahore(self, city): 
+        print ("write some fun fact about {city} city.")           
+
+
+def kickoff():
+    obj = RouteFlow()
+    obj.kickoff()   
+
+def plot():
+    obj = RouteFlow()
+    obj.plot()   

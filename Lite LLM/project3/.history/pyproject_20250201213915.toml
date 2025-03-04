@@ -1,0 +1,20 @@
+[project]
+name = "project3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Umair Pirzada", email = "129576257+UmairPirzada@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "litellm>=1.59.12",
+]
+
+[project.scripts]
+project3 = "project3:main"
+API_KEY ="PROJECT3.HELLO"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

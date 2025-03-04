@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "litellm1"
+version = "0.1.0"
+authors = [{ name = "Your Name" }]
+description = "Your project description"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["litellm", "python-dotenv"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/litellm1"]
+
+[project.scripts]
+kickoff = "litellm1.main:kickoff"
+plot = "litellm1.main:plot"
+simple = "litellm1.main1:run_litellm_flow"
+
+[tool.crewai]
+type = "flow"

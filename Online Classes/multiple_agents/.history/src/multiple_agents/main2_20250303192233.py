@@ -1,0 +1,22 @@
+from crewai import Flow
+from crewai.project.annotations import start
+from multiple_agents.crews.poem_crew.dev_crew.dev_crew1 import DevCrew
+
+
+class DevFlow(Flow):
+    @start()
+    def run_dev_crew(self):
+        crew = DevCrew().crew()
+        output = crew.kickoff()
+        return output.raw
+
+
+def kickoff():
+    dev_flow = DevFlow()
+    result = dev_flow.kickoff()
+    print(result)
+
+
+if __name__ == "__main__":
+    kickoff()
+

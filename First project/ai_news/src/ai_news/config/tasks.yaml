@@ -1,0 +1,29 @@
+retrieve_news_task:
+  description: >
+    Gather the latest AI news and developments. Ensure the information is relevant to {current_year}.
+  expected_output: >
+    A structured summary of the top 10 most important AI news items.
+  agent: retrieve_news
+
+website_scraper_task:
+  description: >
+    Scrape online sources for AI-related news articles and updates.
+    Extract key insights and relevant details.
+  expected_output: >
+    A structured dataset containing the most recent AI-related information.
+  agent: website_scraper
+
+ai_news_writer_task:
+  description: >
+    Analyze the gathered AI news and write a well-structured news article.
+    Ensure clarity, engagement, and accuracy in the report.
+  expected_output: >
+    A detailed AI news article in markdown format, structured for readability.
+  agent: ai_news_writer
+
+file_writer_task:
+  description: >
+    Save the AI news report into a structured markdown file for documentation.
+  expected_output: >
+    A markdown report named 'report.md' containing the final AI news summary.
+  agent: file_writer

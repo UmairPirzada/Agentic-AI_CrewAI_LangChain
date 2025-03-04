@@ -1,0 +1,29 @@
+[project]
+name = "pr7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Umair Pirzada", email = "129576257+UmairPirzada@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=0.100.1",
+    "litellm>=1.59.8",
+]
+
+[project.scripts]
+
+pr7 = "pr7:main"
+simpleflow = "pr7.main:kickoff"
+chain_prompt = "pr7.main1:kickoff"
+route_run1 = "pr7.main2:kickoff"
+route_plot1 = "pr7.main2:plot"
+route_run = "pr7.main3:kickoff"
+route_plot = "pr7.main3:plot"
+route_run1 = "pr7.main3:kickoff"
+route_plot = "pr7.main3:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,9 @@
+research_task:
+  description: "Conduct research on the specified topic"
+  agent: researcher
+  expected_output: "Comprehensive research findings"
+
+writing_task:
+  description: "Create content based on research findings"
+  agent: writer
+  expected_output: "Well-written final content"

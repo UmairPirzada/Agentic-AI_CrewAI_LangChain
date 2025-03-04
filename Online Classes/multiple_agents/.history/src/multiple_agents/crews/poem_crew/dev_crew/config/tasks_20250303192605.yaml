@@ -1,0 +1,14 @@
+write_code:
+  description: >
+    Write a python code solution for adding two numbers
+  expected_output: >
+    A working Python code solution
+  agent: junior_python_developer
+
+
+review_code:
+  description: >
+    Review and enhance the code with type hints, pydocs, and tests
+  expected_output: >
+    Enhanced Python code with documentation and tests
+  agent: senior_python_developer

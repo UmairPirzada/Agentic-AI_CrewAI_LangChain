@@ -52,7 +52,7 @@ CrewAI offers different components, each with specific arguments:
   - `agent`: The agent responsible for execution.
   - `input_data`: The data required for the task.
 
-For more details, visit: [CrewAI Official Website](https://crewai.io/)
+For more details, visit: [CrewAI Official Website](https://docs.crewai.com/introduction)
 
 ---
 

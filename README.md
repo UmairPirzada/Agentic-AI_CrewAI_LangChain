@@ -108,25 +108,5 @@ Visit: [LangGraph Official Website](https://www.langchain.com/langgraph)
 For more details, visit: [Anthropic AI Research](https://www.anthropic.com/engineering/building-effective-agents?utm_source=chatgpt.com)
 
 ---
-## Official Resources
-
-- **CrewAI**: [https://crewai.io/](https://crewai.io/)
-- **UV Package Manager**: [https://uvpm.dev/](https://uvpm.dev/)
-- **LangChain**: [https://www.langchain.com/](https://www.langchain.com/)
-- **LangGraph**: [https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com](https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com)
-- **Anthropic**: [https://www.anthropic.com/](https://www.anthropic.com/)
-
----
-
-
-## Official Resources
-
-- **CrewAI**: [https://crewai.io/](https://docs.crewai.com/introduction)
-- **UV Package Manager**: [https://uvpm.dev/](https://docs.astral.sh/uv/)
-- **LangChain**: [https://www.langchain.com/](https://www.langchain.com/)
-- **LangGraph**: [https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com](https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com)
-- **Anthropic**: [https://www.anthropic.com/](https://www.anthropic.com/)
-
----
 
 This repository explores **multi-agent AI systems**, their frameworks, and key design patterns to build **scalable, efficient, and autonomous AI applications**.

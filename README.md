@@ -108,6 +108,16 @@ Visit: [LangGraph Official Website](https://www.langchain.com/langgraph)
 For more details, visit: [Anthropic AI Research](https://www.anthropic.com/engineering/building-effective-agents?utm_source=chatgpt.com)
 
 ---
+## Official Resources
+
+- **CrewAI**: [https://crewai.io/](https://crewai.io/)
+- **UV Package Manager**: [https://uvpm.dev/](https://uvpm.dev/)
+- **LangChain**: [https://www.langchain.com/](https://www.langchain.com/)
+- **LangGraph**: [https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com](https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com)
+- **Anthropic**: [https://www.anthropic.com/](https://www.anthropic.com/)
+
+---
+
 
 ## Official Resources
 

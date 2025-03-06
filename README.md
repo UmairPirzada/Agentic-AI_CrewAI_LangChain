@@ -60,7 +60,7 @@ For more details, visit: [CrewAI Official Website](https://docs.crewai.com/intro
 
 **UV** is a fast, **next-generation Python package manager** built as an alternative to **pip** and **venv**. It offers improved performance, deterministic dependency resolution, and compatibility with existing package repositories.
 
-For more details, visit: [UV Package Manager](https://uvpm.dev/)
+For more details, visit: [UV Package Manager](https://docs.astral.sh/uv/)
 
 ---
 
@@ -93,7 +93,7 @@ Visit: [LangChain Official Website](https://www.langchain.com/)
 
 LangGraph is useful for **multi-agent AI systems, workflow automation, and decision-making AI applications**.
 
-Visit: [LangGraph Official Website](https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com)
+Visit: [LangGraph Official Website](https://www.langchain.com/langgraph)
 
 ---
 
@@ -105,14 +105,14 @@ Visit: [LangGraph Official Website](https://python.langchain.com/docs/langgraph/
 - **Multi-agent collaboration** for efficient decision-making.
 - **Ensuring safety and control** in AI-driven workflows.
 
-For more details, visit: [Anthropic AI Research](https://www.anthropic.com/research/building-effective-agents?utm_source=chatgpt.com)
+For more details, visit: [Anthropic AI Research](https://www.anthropic.com/engineering/building-effective-agents?utm_source=chatgpt.com)
 
 ---
 
 ## Official Resources
 
-- **CrewAI**: [https://crewai.io/](https://crewai.io/)
-- **UV Package Manager**: [https://uvpm.dev/](https://uvpm.dev/)
+- **CrewAI**: [https://crewai.io/](https://docs.crewai.com/introduction)
+- **UV Package Manager**: [https://uvpm.dev/](https://docs.astral.sh/uv/)
 - **LangChain**: [https://www.langchain.com/](https://www.langchain.com/)
 - **LangGraph**: [https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com](https://python.langchain.com/docs/langgraph/?utm_source=chatgpt.com)
 - **Anthropic**: [https://www.anthropic.com/](https://www.anthropic.com/)
